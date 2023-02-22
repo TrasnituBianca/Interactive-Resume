@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trasnitu Bianca Resume</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="light-theme.css">
+
+</head>
+
+<body>
+  <div class="first-section">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bianca Trasnitu</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#about">ABOUT ME</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#resume">RESUME</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contact">CONTACT ME</a>
+              </li>
+              <li>
+                <label class="switch">
+                  <input type="checkbox" onclick="toggleTheme()" />
+                  <span class="slider"></span>
+                </label>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button id="download-button" onclick="downloadPDF()" class="btn btn-light" type="submit">DOWNLOAD
+                CV</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/photos'=/myself.png" />
+          </div>
+          <div class="flip-card-back">
+            <img src="/photos'=/myself.png" />
+            <h3>Web Developer</h3>
+            <h1>Bianca Trasnitu</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="about">
+    <div class="container reveal">
+      <div class="container-for-general-info">
+        <div class="leftie">
+          <div class="dark fire">
+            <h1 class="Blazing">ABOUT</h1>
+          </div>
+          <p>Hello! My name is <strong class="Blazing"> Trasnitu Bianca Georgiana</strong> and I am a recent web
+            developer.</p>
+          <p>I’m dedicated and ambitious which makes me a person who is willing to learn quickly how to solve any
+            tasks that I am confronted with. Due to my experience from university, I can say that I’m a team
+            player who is willing to find suitable solutions that are beneficial for all the team members to
+            solve the tasks ahead and meet the deadlines.</p>
+          <p>My objectives are to gain experience and develop my skills in a variety of areas. I like to be
+            challenged and I like to learn new things because I believe that is how you find your purpose, both
+            professionally and personally.</p>
+        </div>
+        <div class="rightie">
+          <div class="dark fire">
+            <h1 class="Blazing">CONTACTS</h1>
+          </div>
+          <div class="info-list">
+            <div class="info-list-left">
+              <strong class="text-uppercase">EMAIL:</strong>
+            </div>
+            <div class="info-list-right"><button id="contact-me-button-one">trasnitubianca@gmail.com</button></div>
+          </div>
+          <div class="info-list">
+            <div class="info-list-left">
+              <strong class="text-uppercase">PHONE:</strong>
+            </div>
+            <div class="info-list-right"><button id="contact-phone-button">+40 0742765499</button></div>
+          </div>
+          <div class="info-list">
+            <div class="info-list-left">
+              <strong class="text-uppercase">ADRESS:</strong>
+            </div>
+            <div class="info-list-right"> Campia Turzii, Cluj, Romania
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-for-general-info">
+        <div class="leftie">
+          <div class="dark fire">
+            <h1 class="Blazing">FUN FACT</h1>
+          </div>
+          <div class="fun-fact">
+            <div class="fun-fact-container">
+              <img src="/photos'=/m.png">
+              <p>HIP-HOP Lover</p>
+            </div>
+            <div class="fun-fact-container">
+              <img src="/photos'=/c.png">
+              <p>10 Countries Visited</p>
+            </div>
+            <div class="fun-fact-container">
+              <img src="/photos'=/ph.png">
+              <p>Photography Admirer</p>
+            </div>
+          </div>
+        </div>
+        <div class="rightie">
+          <div class="dark fire">
+            <h1 class="Blazing">QUOTE</h1>
+          </div>
+          <p>“I have noticed even people who claim everything is predestined, and that we can do nothing to change
+            it, look before they cross the road.” – Stephen Hawking</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div id="resume" class="third-section">
+    <div class="container reveal">
+      <div class="dark fire">
+        <h1 class="Blazing">PROJECTS</h1>
+      </div>
+      <div class="container-section-three">
+        <div class="card">
+          <div class="face face1">
+            <div class="outer">
+              <h1 class="title">Game of Rock, Scissor and Paper JS</h1>
+              <img src="/photos'=/rockSS.png" />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="inner">
+              <p> A display of the Rock, paper, scissors game. By using JS Dom Manipulation I added visual items:
+                Score counter: You vs Computer; Visual image for each item: rock, paper, scissor;Click Play: you choose
+                one item and a random item is chosen for the Computer;
+                Display of winner.</p>
+              <a href="https://github.com/TrasnituBianca/HomeworksFrontend/tree/master/Homework6DOM" target="_blank"
+                type="button">See for yourself</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="outer">
+              <h1 class="title">Implementation of BMI in Angular</h1>
+              <img src="/photos'=/twoback.pmg.jpg">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="inner">
+              <p>This is an example of an implementation of a BMI in Angular. On the “home page” I displayed all persons
+                with BMI status and specific colours.On” More details” are displayed the: name, weight and bmi result .
+                The weight is editable. After you edit the weight you will see the new BMI result.
+              </p>
+              <a href="https://github.com/TrasnituBianca/HomeWork-Angular" target="_blank" type="button">Check it
+                out</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="outer">
+              <h1 class="title">
+                Reusable Responsive Card Template </h1>
+              <img src="/photos'=/RespCard.png">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="inner">
+              <p>This is an example of a reusable card container. It is responsive and can be used globally when needed.
+                .</p>
+              <a href="https://github.com/TrasnituBianca/HomeworksFrontend/tree/master/Homework4responsive"
+                target="_blank" type="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fourth-section">
+    <div class="container reveal">
+      <div id="skills">
+        <div class="container-skills">
+          <div class="dark fire">
+            <h1 class="Blazing">HARD SKILLS</h1>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="skill col-12 col-lg-6">
+              <div class="low-percent" class="skills__percent">95%</div>
+              <div class="progress-container">
+                <strong>HTML / CSS</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill col-12 col-lg-6">
+              <div class="low-percent" class="skills__percent">70%</div>
+              <div class="progress-container">
+                <strong>JavaScript</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 87%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill col-12 col-lg-6">
+              <div class="low-percent" class="skills__percent">50%</div>
+              <div class="progress-container">
+                <strong>Bootsrap</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill col-12 col-lg-6">
+              <div class="low-percent" class="skills__percent">50%</div>
+              <div class="progress-container">
+                <strong>Angular</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="languages">
+        <div class="container-skills">
+          <div class="dark fire">
+            <h1 class="Blazing">LANGUAGES</h1>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="skill col-12 col-lg-6">
+              <div class="skills__percent"></div>
+              <div class="progress-container">
+                <strong>ROMANIAN</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill col-12 col-lg-6">
+              <div class="skills__percent"></div>
+              <div class="progress-container">
+                <strong>ENGLLISH</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill col-12 col-lg-6">
+              <div class="skills__percent"></div>
+              <div class="progress-container">
+                <strong>SPANISH</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill col-12 col-lg-6">
+              <div class="skills__percent"></div>
+              <div class="progress-container">
+                <strong>FRENCH</strong>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-for-general-info">
+        <div class="rightie">
+          <div class="dark fire">
+            <h1 class="Blazing">EDUCATION</h1>
+          </div>
+          <div class="info-list">
+            <div class="info-list-left">
+              <strong class="text-uppercase">2022-2023:</strong>
+            </div>
+            <div class="info-list-right">"Informal IT School"</div>
+          </div>
+          <div class="info-list">
+            <div class="info-list-left">
+              <strong class="text-uppercase">2019-2021</strong>
+            </div>
+            <div class="info-list-right">"Leadership and communication"</div>
+          </div>
+          <div class="info-list">
+            <div class="info-list-left">
+              <strong class="text-uppercase">2019-2021:</strong>
+            </div>
+            <div class="info-list-right">"European Programs and Policies
+              Evaluation"</div>
+          </div>
+          <div class="info-list">
+            <div class="info-list-left">
+              <strong class="text-uppercase">2016-2019:</strong>
+            </div>
+            <div class="info-list-right">"Security Studies"
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="fifth-section">
+        <div class="container reveal">
+          <h1>Contact Me</h1>
+          <br>
+          <div class="container-form">
+            <form>
+              <p>Got a question for me? Send me a message!
+              </p>
+              <label for="fname">FULL NAME</label>
+              <br>
+              <input type="text" id="fname" name="firstname">
+              <br>
+              <label for="email">EMAIL ADRESS</label>
+              <br>
+              <input type="email" id="email" name="email">
+              <br>
+              <label for="message">YOUR MESSAGE</label>
+              <br>
+              <input type="text" id="message" name="message" > 
+              <br>
+              <input id="contact-me-button" type="submit" value="Send Message">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
